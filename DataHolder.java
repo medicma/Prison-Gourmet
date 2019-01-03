@@ -25,7 +25,7 @@ public class DataHolder extends Application{
                 .server("https://parseapi.back4app.com")
                  .enableLocalDataStore()
                 .build());
-        // Parse.initialize(this, "pQ3hJlWh9LiIVJ6iETzOS6Tg6ForXuiyATQCJoNZ", "0AZ7o8sKrkRcj18z4AxWDSkWsz7qWR3hmqQJhKIa");
+        
         ParseInstallation.getCurrentInstallation().saveInBackground();
     }
 }
